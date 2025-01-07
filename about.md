@@ -1,9 +1,7 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django. Now, I am doing more on backend.
-
-email: summon.agus[at]gmail.com
+여기에 이제 내 자기소개 적을 예정
