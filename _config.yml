@@ -1,10 +1,10 @@
-title: Stack Problems
+title: Paper Review
 description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django.
-disqus_shortname: stackproblems
-google_analytics: UA-XXXXXXXX-Y
+author: Eunjo Jang
+github: https://github.com/eunjo99
+about: AI Researcher | Data Scientist | Recommendation System
+disqus_shortname: paperreviews
+google_analytics: 
 
 enableTags: true
 tagarray: []
@@ -15,16 +15,10 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
-    - icon: fa-twitter
-      link: "#"
     - icon: fa-linkedin
-      link: "#"
-    - icon: fa-stack-exchange
-      link: "#"
+      link: "https://www.linkedin.com/in/jangeunjo/"
     - icon: fa-github
-      link: "https://github.com/agusmakmun"
+      link: "https://github.com/eunjo99"
 
 share:
   twitter_username: github.io
@@ -35,10 +29,8 @@ urls:
       url: /about/
     - text: My Projects
       url: /projects/
-    - text: XML Feed
-      url: /feed.xml
 
-url: "https://agusmakmun.github.io"
+url: "https://eunjo99.github.io"
 baseurl: ""
 paginate: 20
 per_page: 20
