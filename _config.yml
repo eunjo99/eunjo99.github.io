@@ -1,18 +1,20 @@
-title: MY PROJECT LIST
-description: My Personal Project List
-author: Eunjo Jang
+title: MY PROJECT LIST   # 사이트 상단 제목
+description: My Personal Project List  # 사이트 설명, 공유 시 사용
+
+# 사이트 오른쪽에 표시되는 정보들
+author: Eunjo Jang  
 github: https://github.com/eunjo99
 about: AI Researcher | Data Scientist | Recommendation System
-disqus_shortname: project
-google_analytics: 
+disqus_shortname:   # Disqus는 블로그나 웹사이트에 댓글 기능을 추가하는 서비스 ?? 
+google_analytics:   # Google Analytics를 통해 방문자 트래픽과 행동을 추적할 수 있습니다. 추적 코드를 설정하면 사이트 성과를 분석 가능./ 추척ID 입력
 
 enableTags: true
-tagarray: []
+tagarray: []  # 태그에 사용할 기본값 리스트 정의
 
-collections:
-  project:
-    output: true
-    permalink: /project/:path/
+collections:  # Jekyll의 컬렉션 기능은 콘텐츠를 특정 그룹으로 묶어서 관리할 수 있게 해줍니다. 이 설정은 project라는 이름의 컬렉션을 정의
+  project: # 컬렉션 이름
+    output: true  # 이 컬렉션이 HTML로 변환되어 출력되도록 설정, false로 설정하면, 컬렉션 콘텐츠는 출력되지 않고 내부 데이터로만 사용
+    permalink: /project/:path/  # 각 컬렉션 항목의 URL 구조를 정의
 
 social:
     - icon: fa-linkedin
@@ -20,11 +22,11 @@ social:
     - icon: fa-github
       link: "https://github.com/eunjo99"
 
-share:
-  twitter_username: github.io
-  fb_appid: 1749788565247320
+# share:
+#  twitter_username: github.io
+#  fb_appid: 1749788565247320
 
-urls:
+urls:  # 사이트 내에서 네비게이션 메뉴 정의
     - text: About Me
       url: /about/
     - text: Paper Reviews
@@ -32,10 +34,10 @@ urls:
 
 url: "https://eunjo99.github.io"
 baseurl: ""
-paginate: 20
-per_page: 20
-paginate_path: "/page/:num/"
-markdown: kramdown
+paginate: 20  # 한 페이지에 표시할 포스트 수
+per_page: 20  # 페이지당 항목 수
+paginate_path: "/page/:num/"  # 페이지 네비게이션 경로 패턴
+markdown: kramdown  # 마크다운 엔진 설정. Jekyll에서 기본적으로 kramdown 사용
 plugins:
   - jekyll-paginate
   - jekyll-gist
