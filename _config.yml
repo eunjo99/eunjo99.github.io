@@ -30,7 +30,7 @@ urls:  # 사이트 내에서 네비게이션 메뉴 정의
     - text: About Me
       url: /about/
     - text: Paper Reviews
-      url: /paper_reviews/
+      url: /papers/
 
 url: "https://eunjo99.github.io"
 baseurl: ""
