@@ -1,9 +1,9 @@
-title: Paper Review
-description: My Personal Stack Problems
+title: MY PROJECT LIST
+description: My Personal Project List
 author: Eunjo Jang
 github: https://github.com/eunjo99
 about: AI Researcher | Data Scientist | Recommendation System
-disqus_shortname: paperreviews
+disqus_shortname: project
 google_analytics: 
 
 enableTags: true
@@ -27,8 +27,8 @@ share:
 urls:
     - text: About Me
       url: /about/
-    - text: My Projects
-      url: /projects/
+    - text: Paper Reviews
+      url: /paper_reviews/
 
 url: "https://eunjo99.github.io"
 baseurl: ""
